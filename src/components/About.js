@@ -1,21 +1,17 @@
-import React from "react";
-import { motion } from "framer-motion";
-
-const About = () => {
+export default function About() {
     return (
-        <motion.section
+        <section
             id="about"
-            className="py-16 px-8 bg-spaceGray text-gray-300"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1 }}
+            className="py-20 bg-gradient-radial from-spaceGray via-deepSpace to-spaceBlack text-white relative"
         >
-            <h2 className="text-3xl font-bold text-center text-neonBlue">About Me</h2>
-            <p className="mt-4 text-center max-w-2xl mx-auto">
-                I am a passionate developer exploring the intersection of technology and creativity, building futuristic web applications.
-            </p>
-        </motion.section>
+            <div className="container mx-auto text-center">
+                <h2 className="text-4xl font-extrabold mb-6 glow animate-neonPulse">
+                    About Me
+                </h2>
+                <p className="text-lg text-gray-300 leading-relaxed">
+                    I am a <span className="neon-highlight">Computer Science</span> student at the University of Montreal with a passion for <span className="neon-highlight">technology</span> and a keen interest in <span className="neon-highlight">hardware</span>. I enjoy exploring how systems work from the inside out and find great satisfaction in solving <span className="neon-highlight">complex problems</span>. I'm dedicated to creating sleek, responsive designs and applications while constantly learning new technologies and approaches. My experience spans <span className="neon-highlight">software engineering</span>, system architecture, and web development, and I am always eager to apply my skills in real-world projects.
+                </p>
+            </div>
+        </section>
     );
-};
-
-export default About;
+}

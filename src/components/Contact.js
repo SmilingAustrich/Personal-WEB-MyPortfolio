@@ -1,40 +1,57 @@
-import React from "react";
+import { motion } from 'framer-motion';
 
-const Contact = () => {
+export default function Contact() {
     return (
-        <section className="bg-gray-100 text-gray-800 py-16 px-8">
-            <h2 className="text-3xl font-bold text-center">Contact Me</h2>
-            <form className="mt-8 max-w-lg mx-auto space-y-6">
-                <div>
-                    <label className="block text-sm font-medium">Name</label>
-                    <input
+        <section id="contact" className="py-20 bg-spaceBlack text-white relative">
+            <div className="container mx-auto text-center">
+                {/* Section Title with animation */}
+                <motion.h2
+                    className="text-4xl font-extrabold mb-10 glow animate-neonPulse"
+                    initial={{ opacity: 0, y: 50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1 }}
+                >
+                    Contact Me
+                </motion.h2>
+
+                {/* Form Container */}
+                <form className="space-y-6 mt-8 mx-auto max-w-2xl">
+                    <motion.input
                         type="text"
-                        className="w-full mt-2 p-3 border border-gray-300 rounded-lg"
-                        placeholder="Your Name"
+                        placeholder="Name"
+                        className="w-full p-4 rounded-lg border-2 border-neonBlue text-white bg-transparent focus:ring-2 focus:ring-neonPurple outline-none transition-all duration-300 hover:border-neonPurple"
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 1.2 }}
                     />
-                </div>
-                <div>
-                    <label className="block text-sm font-medium">Email</label>
-                    <input
+                    <motion.input
                         type="email"
-                        className="w-full mt-2 p-3 border border-gray-300 rounded-lg"
-                        placeholder="Your Email"
+                        placeholder="Email"
+                        className="w-full p-4 rounded-lg border-2 border-neonBlue text-white bg-transparent focus:ring-2 focus:ring-neonPink outline-none transition-all duration-300 hover:border-neonPink"
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 1.2 }}
                     />
-                </div>
-                <div>
-                    <label className="block text-sm font-medium">Message</label>
-                    <textarea
-                        className="w-full mt-2 p-3 border border-gray-300 rounded-lg"
-                        rows="5"
-                        placeholder="Your Message"
-                    ></textarea>
-                </div>
-                <button className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition">
-                    Send Message
-                </button>
-            </form>
+                    <motion.textarea
+                        placeholder="Message"
+                        className="w-full p-4 rounded-lg border-2 border-neonBlue text-white bg-transparent focus:ring-2 focus:ring-neonYellow outline-none transition-all duration-300 hover:border-neonYellow"
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 1.2 }}
+                    ></motion.textarea>
+
+                    {/* Submit Button */}
+                    <motion.button
+                        type="submit"
+                        className="bg-neonBlue text-black px-8 py-4 rounded-lg shadow-lg transform transition duration-300 hover:scale-110 hover:shadow-neonGlow hover:bg-neonGreen"
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 1.5 }}
+                    >
+                        Submit
+                    </motion.button>
+                </form>
+            </div>
         </section>
     );
-};
-
-export default Contact;
+}
