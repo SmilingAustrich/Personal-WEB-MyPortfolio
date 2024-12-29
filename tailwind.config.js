@@ -9,11 +9,11 @@ module.exports = {
         neonGreen: '#39FF14',
         white: '#ffffff',
         whiteGrey: 'rgb(250,250,250)',
-        neonYellow: '#FFFF33', // Added neon yellow for vibrant accents
+        neonYellow: '#afaf28', // Added neon yellow for vibrant accents
         deepSpace: '#121212', // A darker black for space themes
         galaxyGray: '#242424', // Slightly lighter black for contrasts
         spaceBlack: '#0B0C10',
-        spaceGray: '#1F2833',
+        spaceGray: 'rgba(32,40,51,0.91)',
       },
       fontFamily: {
         techno: ['Orbitron', 'sans-serif'],

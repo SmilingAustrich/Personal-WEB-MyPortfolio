@@ -37,7 +37,7 @@ export default function Navbar() {
                     {[
                         { id: "hero", label: "Home" },
                         { id: "about", label: "About" },
-                        { id: "services", label: "Services" },
+                        { id: "skills", label: "Skills" },
                         { id: "portfolio", label: "Portfolio" },
                         { id: "contact", label: "Contact" },
                     ].map((link) => (

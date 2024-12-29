@@ -9,7 +9,7 @@ export default function About() {
                     About Me
                 </h2>
                 <p className="text-lg text-gray-300 leading-relaxed">
-                    I am a <span className="neon-highlight">Computer Science</span> student at the University of Montreal with a passion for <span className="neon-highlight">technology</span> and a keen interest in <span className="neon-highlight">hardware</span>. I enjoy exploring how systems work from the inside out and find great satisfaction in solving <span className="neon-highlight">complex problems</span>. I'm dedicated to creating sleek, responsive designs and applications while constantly learning new technologies and approaches. My experience spans <span className="neon-highlight">software engineering</span>, system architecture, and web development, and I am always eager to apply my skills in real-world projects.
+                    I am a <span className="neon-highlight-blue">Computer Science</span> student at the University of Montreal with a passion for <span className="neon-highlight-blue">technology</span> and a keen interest in <span className="neon-highlight-blue">hardware</span>. I enjoy exploring how systems work from the inside out and find great satisfaction in solving <span className="neon-highlight-blue">complex problems</span>. I'm dedicated to creating sleek, responsive designs and applications while constantly learning new technologies and approaches. My experience spans <span className="neon-highlight-blue">software engineering</span>, system architecture, and web development, and I am always eager to apply my skills in real-world projects.
                 </p>
             </div>
         </section>
