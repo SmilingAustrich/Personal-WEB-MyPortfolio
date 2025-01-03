@@ -1,9 +1,19 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  safelist: [
+    // Add any classes that appear only in dangerouslySetInnerHTML
+    'neon-highlight-purple',
+    'neon-highlight-green',
+    'neon-highlight-red',
+    'neon-highlight-yellow',
+    'neon-highlight-white',
+    // etc. (any highlight classes you use)
+  ],
   theme: {
     extend: {
       colors: {
         neonBlue: '#00FFFF',
+        neonRoyalBlue: '#1516f6',
         neonPurple: '#A020F0',
         neonPink: '#FF1493',
         neonGreen: '#39FF14',

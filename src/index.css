@@ -13,6 +13,7 @@ body {
     overflow: auto; /* Allow scrolling */
     position: relative;
     cursor: none; /* Hide the default cursor */
+    overflow-x: hidden;
 }
 
 /* Glowing text effect */
@@ -137,6 +138,20 @@ button:hover {
 .neon-highlight-purple:hover {
     color: #39FF14; /* Neon Green on hover */
     text-shadow: 0 0 10px #9b59b6, 0 0 20px #9b59b6, 0 0 30px #39FF14, 0 0 40px #39FF14; /* Slightly more intense on hover */
+}
+
+/* Purple Highlight */
+.neon-highlight-blue-royal {
+    position: relative;
+    color: #2022b5; /* Neon Purple */
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    text-shadow: 0 0 5px #9b59b6, 0 0 15px #9b59b6; /* Subtle glow effect */
+}
+
+.neon-highlight-blue-royal:hover {
+    color: #39FF14; /* Neon Green on hover */
+    text-shadow: 0 0 10px #353695, 0 0 20px #353695, 0 0 30px #39FF14, 0 0 40px #39FF14; /* Slightly more intense on hover */
 }
 
 /* Red Highlight */

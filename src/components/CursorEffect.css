@@ -4,26 +4,53 @@
     width: 25px;
     height: 25px;
     border: 2px solid #00FFFF; /* Neon Blue Border */
-    border-radius: 50%;
+    border-radius: 90%;
     pointer-events: none;
     transform: translate(-50%, -50%);
     z-index: 10000;
     background: transparent; /* Transparent center */
-    box-shadow: 0 0 8px 3px #00FFFF, 0 0 15px 6px rgba(0, 255, 255, 0.5); /* Subtle Neon Glow */
+    box-shadow: 0 0 3px 3px #00FFFF, 0 0 15px 6px rgba(0, 255, 255, 0.5); /* Subtle Neon Glow */
     transition: all 0.1s ease-out;
 }
 
-/* Cursor Trail (following effect) */
+
+
+/* Cursor Trail */
 .cursor-trail {
     position: fixed;
-    width: 18px;
-    height: 18px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     pointer-events: none;
-    background: rgba(0, 255, 255, 0.5); /* Semi-transparent Neon Blue for the trail */
+    background: rgba(0, 255, 255, 0.2); /* Soft glow effect */
     transform: translate(-50%, -50%);
     z-index: 9999;
-    opacity: 0.4; /* Softer opacity for trail */
-    box-shadow: 0 0 10px 2px rgba(0, 255, 255, 0.6), 0 0 20px 5px rgba(0, 255, 255, 0.3); /* Light and subtle glow */
-    transition: transform 0.1s ease-out, opacity 0.3s ease-out;
+    opacity: 0.6; /* Slightly more visible trail */
+    box-shadow:
+            0 0 8px 3px rgba(0, 255, 255, 0.5),
+            0 0 16px 5px rgba(0, 255, 255, 0.3); /* Subtle trailing glow */
+    transition: transform 0.15s ease, opacity 0.3s ease;
+}
+
+/* Hover Effect */
+.custom-cursor.hover {
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 255, 255, 0.2); /* Glow brightens on hover */
+    box-shadow:
+            0 0 18px 6px rgba(0, 255, 255, 0.8),
+            0 0 36px 12px rgba(0, 255, 255, 0.5); /* More intense glow on hover */
+    transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Active (Click) Effect */
+.custom-cursor.active {
+    width: 35px;
+    height: 35px;
+    background: rgba(0, 255, 255, 0.3); /* Bright center during click */
+    box-shadow:
+            0 0 24px 8px rgba(0, 255, 255, 0.9),
+            0 0 48px 16px rgba(0, 255, 255, 0.6); /* Stronger glow during click */
+    transform: translate(-50%, -50%) scale(1.1); /* Slight enlargement */
+    transition: transform 0.1s ease, width 0.1s ease, height 0.1s ease, background 0.2s ease;
 }
