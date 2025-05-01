@@ -104,10 +104,10 @@ const translations = {
                 description: `
           Proficient in solving problems using key <span class="neon-highlight-yellow">algorithms</span> such as 
           <span class="neon-highlight-yellow">binary search</span>, a fundamental technique for
-          searching sorted arrays with a time complexity of O(log n). Additionally skilled in 
+          searching sorted arrays. Additionally skilled in 
           <span class="neon-highlight-yellow">divide and conquer</span> strategies, particularly for
-          sorting algorithms like <span class="neon-highlight-yellow">merge sort</span> (O(n log n)) and 
-          <span class="neon-highlight-yellow">quick sort</span> (average O(n log n)).
+          sorting algorithms like <span class="neon-highlight-yellow">merge sort</span> and 
+          <span class="neon-highlight-yellow">quick sort</span>.
           <br/>
           Familiar with core <span class="neon-highlight-yellow">data structures</span> such as
           arrays, linked lists, stacks, queues, trees , heaps and how to implement and
@@ -125,6 +125,9 @@ const translations = {
           (<em>Introduction à l’algorithmie</em>) during
           the Winter 2025 semester as part of the process of obtaining my BSc.
           <br/>
+               05/30/25:
+            I finally finished my algorithms course, and honestly, it was a such a wonderful course! I learned so much.
+            I'm so excited to apply my skills in real-world projects.
         `,
             },
         },
@@ -248,8 +251,8 @@ const translations = {
           Compétent pour résoudre des problèmes à l’aide d’<span class="neon-highlight-yellow">algorithmes</span> clés 
           comme la <span class="neon-highlight-yellow">recherche binaire</span> (O(log n)), ainsi que 
           <span class="neon-highlight-yellow">diviser pour régner</span> (divide and conquer), notamment pour 
-          des tris comme <span class="neon-highlight-yellow">le tri fusion (merge sort)</span> en O(n log n) 
-          ou <span class="neon-highlight-yellow">le tri rapide (quick sort)</span> (moyenne O(n log n)).
+          des tris comme <span class="neon-highlight-yellow">le tri fusion (merge sort)</span> 
+          ou <span class="neon-highlight-yellow">le tri rapide (quick sort)</span>.
           <br/>
           Familiarisé avec les <span class="neon-highlight-yellow">structures de données</span> de base, 
           telles que les tableaux, listes chaînées, piles, files, arbres, tas et graphes, 
@@ -266,6 +269,10 @@ const translations = {
           (<em>Introduction à l’algorithmie</em>) durant la session d’hiver 2025, 
           dans le cadre de l’obtention de mon B.Sc.
           <br/>
+          
+          30/05/25: 
+          J'ai enfin terminé mon cours d'algorithmie, et franchement, c'était un cours magnifique. J'ai beaucoup, beaucoup appris.
+          Je suis vraiment excité d'appliquer ces nouvelles connaissances dans des projets concrets!
         `,
             },
         },
