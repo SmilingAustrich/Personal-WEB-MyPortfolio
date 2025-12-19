@@ -225,7 +225,7 @@ function App() {
                             <a href="https://github.com/SmilingAustrich" target="_blank" rel="noreferrer" className="block group">
                                 <span className="text-gray-500 block mb-1">GIT_REPOSITORY:</span>
                                 <span className="text-white group-hover:text-phosphor-green transition-colors">
-                    github.com/SmilingAustrich
+                    github.com/htarek-bytes
                   </span>
                             </a>
                             <a href="https://www.linkedin.com/in/hirechetarek" target="_blank" rel="noreferrer" className="block group">
