@@ -67,7 +67,7 @@ function App() {
 
                     {/* REAL PROJECTS */}
                     <section>
-                        <h2 className="text-gray-500 text-xs tracking-[0.2em] mb-6 font-mono">/// CORE_DUMPS (PROJECTS) ///</h2>
+                        <h2 className="text-phosphor-green text-sm tracking-[0.2em] mb-6 font-mono">/// CORE_DUMPS (PROJECTS) ///</h2>
                         <div className="space-y-6">
 
                             {/* PROJECT 1: ZIG MEMORY MANAGER */}
@@ -79,7 +79,7 @@ function App() {
                             >
                                 Low-level memory management implementation in Zig. Engineered custom stack structures ("Pile")
                                 and recycling logic to optimize resource allocation without garbage collection overhead.
-                                <br/><span className="text-system-cyan text-xs mt-2 block">>> SOURCE: github.com/SmilingAustrich/UdeM-IFT2035-HM2</span>
+                                <br/><span className="text-system-cyan text-xs mt-2 block">>> SOURCE: github.com/htarek-bytes/UdeM-IFT2035-HM2</span>
                             </HexCard>
 
                             {/* PROJECT 2: MIPS ASSEMBLY */}
@@ -91,7 +91,7 @@ function App() {
                             >
                                 (Magic Square) Direct hardware manipulation algorithm written in MIPS Assembly.
                                 Validates 4x4 integer matrices by managing stack frames and register allocation manually.
-                                <br/><span className="text-system-cyan text-xs mt-2 block">>> SOURCE: github.com/SmilingAustrich/UdeM-IFT1227-D3</span>
+                                <br/><span className="text-system-cyan text-xs mt-2 block">>> SOURCE: github.com/htarek-bytes/UdeM-IFT1227-D3</span>
                             </HexCard>
 
                             {/* PROJECT 3: GIRARD INTERPRETER (PROLOG) */}
@@ -103,7 +103,7 @@ function App() {
                             >
                                 (Girard Interpreter) A robust polymorphic type checker and interpreter for System F implemented in Scryer Prolog.
                                 Handles alpha-equivalence, capture-avoiding substitution, and beta-reduction for Church numerals.
-                                <br/><span className="text-system-cyan text-xs mt-2 block">>> SOURCE: github.com/SmilingAustrich/UdeM-IFT2035-HM3</span>
+                                <br/><span className="text-system-cyan text-xs mt-2 block">>> SOURCE: github.com/htarek-bytes/UdeM-IFT2035-HM3</span>
                             </HexCard>
 
                             {/* PROJECT 4: HOSPITAL SYSTEM */}
@@ -115,7 +115,7 @@ function App() {
                             >
                                 (Hospital Montreal) Distributed system for managing patient registries.
                                 Deployed via Docker containers with a PostgreSQL backend for high-availability data persistence.
-                                <br/><span className="text-system-cyan text-xs mt-2 block">>> SOURCE: github.com/SmilingAustrich/UdeM-IFT2935-Project</span>
+                                <br/><span className="text-system-cyan text-xs mt-2 block">>> SOURCE: github.com/htarek-bytes/UdeM-IFT2935-Project</span>
                             </HexCard>
 
                         </div>
@@ -225,7 +225,7 @@ function App() {
                     tarik.hireche@engineer.com
                   </span>
                             </a>
-                            <a href="https://github.com/SmilingAustrich" target="_blank" rel="noreferrer" className="block group">
+                            <a href="https://github.com/htarek-bytes" target="_blank" rel="noreferrer" className="block group">
                                 <span className="text-gray-500 block mb-1">GIT_REPOSITORY:</span>
                                 <span className="text-white group-hover:text-phosphor-green transition-colors">
                     github.com/htarek-bytes
